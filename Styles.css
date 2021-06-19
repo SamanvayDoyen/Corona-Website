@@ -1,0 +1,73 @@
+*{
+    margin:0px;
+}
+body{
+    background-image:url(https://media-s3-us-east-1.ceros.com/abbott/images/2020/11/16/dfd84c2864dac4f7879bd2951e1b1c20/background-edit.jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    color:white;
+}
+a{
+    color:white;
+    font-size: 25px;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+ transform:scale(1.06);
+ border-bottom: 2px solid white;
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 3px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+h1{
+    transition: all 0.1s;
+}
+h1:hover{
+    transform:scale(1.03);
+}
+.About{
+    background-color:#990099;
+    color:white;
+    text-align: center;
+    padding: 40px;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+
+}
+p{
+    font-size:18px;
+
+}
+.C19{
+    background-color: #000066;
+    color:white;
+    text-align: center;
+    padding: 40px;
+}
+.Prevention{
+    background-color: #006699;
+    padding: 40px; 
+    color:white;
+    text-align: center;
+}
+.method{
+    color:rgb(148, 203, 255);
+    text-align: left;
+}
+h3{
+    color:white;
+    font-size: 22px;
+}
